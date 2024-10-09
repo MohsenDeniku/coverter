@@ -1,0 +1,102 @@
+body {
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
+  background-color:floralwhite;
+}
+
+.main-container {
+  margin: 170px auto;
+  width: 550px;
+  background-color: #1F2937;
+  border-radius: 10px;
+  border: none;
+}
+
+#header {
+  color: azure;
+  text-align: center;
+  width: 100%;
+  height: 285px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #6943FF;
+  margin: 35px 0;
+  border-radius: 10px 10px 0 0;
+}
+
+#header h2 {
+  font-size: 28px;
+  margin-bottom: 25px;
+}
+
+#input-num {
+  border: 2px solid #B295FF;
+  background-color: #6943FF;
+  font-size: 58px;
+  text-align: center;
+  font-weight: 800;
+  width: 117px;
+  height: 83px;
+  border-radius: 4px;
+  color: azure ;
+}
+
+#convert-btn {
+  color: #3D3D3D;
+  background-color: azure;
+  border: none;
+  padding: 10px 26px;
+  border-radius: 5px;
+  margin-top: 25px;
+  font-size: 20px;
+
+}
+
+
+#convert-btn:hover {
+  background-color: purple;
+  color: white;
+}
+#convert-btn:active {
+  background-color: #1F2937;
+  color: #CCC1FF;
+}
+
+.info-section {
+  width: 100%;
+  padding: 5px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 40px;
+}
+
+.conversions {
+  width: 470px;
+  height: 108px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  background-color: #273549;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.conversions h3 {
+  color: #CCC1FF;
+  font-weight: 400;
+  margin-bottom: 0;
+}
+
+.conversions p {
+  color: white;
+  font-size: 14px;
+}
